@@ -1,0 +1,4 @@
+# Add target company or business website URLs here (one per line)
+# Lines starting with # are ignored
+https://scrapegraphai.com/
+https://perinim.github.io/projects/

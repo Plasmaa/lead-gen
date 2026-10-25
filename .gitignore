@@ -1,0 +1,35 @@
+# Environment variables & secrets (CRITICAL: Do not commit API keys)
+.env
+*.env
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Cloned upstream repository
+Scrapegraph-ai/
+
+# Outputs (keep folder structure, ignore generated dumps)
+outputs/*
+!outputs/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
